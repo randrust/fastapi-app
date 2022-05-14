@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyPi</title>
+    <link rel="stylesheet" href="/static/site.css">
+</head>
+<body>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <h1>PyPi site</h1>
+    <div class="main-content">
+        <div metal:define-slot="content" tal:omit-tag="True">No content</div>     
+    </div>
+    <footer>
+        Footer: Thanks fo visiting, contact us at: <br>
+        <br>
+        twitter: @thepsf <br>
+        facebook: ...
+    </footer>
+</body>
+</html>
